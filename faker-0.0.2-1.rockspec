@@ -1,19 +1,27 @@
 package = 'faker'
-version = '0.0.1-1'
+version = '0.0.2-1'
 
 source = {
-	url = 'git://github.com/hector-vido/lua-faker.git',
-	tag = "0.0.1-1"
+	url = 'git://github.com/BakhtinArtem/lua-faker2.git',
+	tag = "0.0.2-1"
 }
 
 description = {
-	summary = 'Faker is a lua library that generates fake data for you.',
+	summary = 'Faker2 is an enhanced lua library that generates fake data for you.',
 	detailed = [[
-Faker is a lua library that generates fake data for you.
-Whether you need to bootstrap your database, create good-looking XML documents, fill-in your persistence to stress test it, or anonymize data taken from a production service, Faker is for you.
-Faker is heavily inspired by PHP Faker, Perl Faker, Ruby Faker and by Python Faker.
+Faker2 is an enhanced fork of lua-faker - a lua library that generates fake data for you.
+Whether you need to bootstrap your database, create good-looking XML documents, fill-in your persistence to stress test it, or anonymize data taken from a production service, Faker2 is for you.
+
+Enhanced features include:
+- Seed support for reproducible random sequences
+- Enhanced string and integer generation with min/max length and pattern matching
+- New data type generators (UUID, URI, URL, dates, IP addresses, passwords, etc.)
+- ID generation with multiple formats
+- Comprehensive test suite
+
+Faker2 is heavily inspired by PHP Faker, Perl Faker, Ruby Faker and by Python Faker.
 ]],
-	homepage = 'github.com/hector-vido/lua-faker',
+	homepage = 'https://github.com/BakhtinArtem/lua-faker2',
 	license = 'MIT'
 }
 
